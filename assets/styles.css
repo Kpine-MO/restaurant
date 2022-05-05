@@ -30,7 +30,7 @@ padding: 2px 0;
 .left{
  clear: both;
 }
- button{
+ .btn{
  margin-right: 190px;
  padding: 2px 0;
  height: 27px;
@@ -71,3 +71,66 @@ p{
  height: 110vh;
  overflow: hidden;
 }
+h2{
+ font-size: 40px;
+ font-weight: lighter;
+}
+.section2{
+ display: flex;
+ margin: 50px 0;
+}
+.section2 p{
+ color: #525050;
+ font-size: x-large;
+ margin: 10px 0;
+ margin-top: 20px;
+}
+.btn1{
+ align-content: center;
+ color: #faff00;
+ text-transform: capitalize;
+ width: 150px;
+ height: 45px;
+ background-color: rgba(5, 2, 2, 0.9);
+ border-top-right-radius: 20px;
+ padding: 13px;
+ padding-left: 5px;
+ margin-top: 70px;
+
+}
+#left{
+ margin-right: 100px;
+ height: 550px;
+ width: 550px;
+ background-image: url(./images/moving2\ 1.png);
+ background-position: center;
+ background-size: cover;
+}
+#right{
+ float: right;
+ margin-top: 150px;
+}
+.rode{
+ height: 4px;
+ width: 125px;
+ background: linear-gradient(to right, gold, gray, gray);
+ position: absolute;
+ margin-top: 130px;
+}
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
