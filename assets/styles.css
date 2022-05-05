@@ -1,0 +1,73 @@
+*{
+ font-family: 'adamina','poppins','actor',;
+ margin: 0;
+}
+.nav-bar{
+ display: flex;
+ float: right;
+ margin-top: 50px;
+}
+ul{
+ display: flex;
+ list-style: none;
+ margin-right: 40px;
+}
+a{
+ text-decoration: none;
+ color: white;
+ 
+}
+li{
+margin-left: 50px;
+text-transform: capitalize;
+width: 90px;
+border: ipx solid transparent;
+height: 20px;
+text-align: center;
+border-radius: 6px;
+padding: 2px 0;
+}
+.left{
+ clear: both;
+}
+ button{
+ margin-right: 190px;
+ padding: 2px 0;
+ height: 27px;
+ width: 60px;
+ margin-top: 0px;
+ color: #faff00;
+ background-color: black;
+ border: none;
+ text-transform: capitalize;
+ font-weight: bold;
+ opacity: 0.58;
+ cursor: pointer;
+}
+li:hover{
+background-color: #faff00;
+color: black;
+}
+a:hover{
+ color: black;
+}
+h1{
+ font-size: 60px;
+ font-weight: lighter;
+ padding-top: 50px;
+ margin-left: 100px;
+ color: #faff00;
+}
+p{
+ font-size: xx-large;
+ color: #999999;
+ margin-left: 100px;
+ margin-top: 90px;
+}
+.section1{
+ background-image: url(./images/moving\ 1.png);
+ background-position: center;
+ background-size: cover;
+ height: 110vh;
+ overflow: hidden;
+}
