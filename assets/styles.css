@@ -176,7 +176,7 @@ h2{
 }
 h3{
  text-transform: capitalize;
- font-size: xx-large;
+ font-size: x-large;
  font-weight: lighter;
  padding: 25px 20px;
 }
@@ -247,10 +247,12 @@ margin: 20px;
 table{
 width: 800px;
 text-align: center;
-color: white;
+color: wheat;
 }
 td{
  padding: 5px 0;
+ font-weight: lighter;
+ color: rgb(243, 226, 194);
 }
 footer{
  background: linear-gradient(to top right, black, black, black, rgb(51, 29, 2));
@@ -284,6 +286,78 @@ strong{
  font-weight: lighter;
  color: #ffac12;
 }
+nav{
+ background: linear-gradient( to top right, black,rgb(29, 16, 1),rgb(54, 29, 1));
+ height: 200px;
+}
+.nav-left{
+ display: flex;
+ float: right;
+ margin-top: 20px;
+ margin-right: 200px;
+}
+.nav-left .btn1{
+ background-color: #ffac12;
+ color: black;
+ margin-top: 6px;
+}
+.nav-left .fa-long-arrow-right{
+ color: white;
+}
+.nav-left ul{
+ padding-top: 20px;
+}
+.border{
+  position: absolute;
+ width: 100%;
+ background: rgb(51, 29, 2);
+ height: 1px;
+ margin-top: 100px;
+}
+.inline{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(238, 232, 232);
+  margin-top: 130px;
+  margin-left: 100px;
+  margin-right: 100px;
+ }
+  .top{
+  font-size: xx-large;
+  font-weight: lighter;
+  text-transform: capitalize;
+  color: rgb(238, 232, 232);
+ }
+ .bottom{
+  text-transform: capitalize;
+  font-size: small;
+  margin-top: 0;
+  color: rgb(190, 185, 185);
+ }
+ #usd1{
+   position: absolute;
+  font-size: larger;
+  margin-left: 1160px;
+  margin-top: 145px;
+  color: rgb(238, 232, 232);
+ }
+ #usd2{
+   position: absolute;
+  font-size: x-small;
+  margin-left: 1160px;
+  margin-top: 150px;
+  color: rgb(190, 185, 185);
+ }
+.address{
+  position: absolute;
+  margin-top: 40px;
+}
+
+
+
+
+
 
 
 
