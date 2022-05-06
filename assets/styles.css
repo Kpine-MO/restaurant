@@ -74,6 +74,7 @@ p{
 h2{
  font-size: 40px;
  font-weight: lighter;
+ text-transform: capitalize;
 }
 .section2{
  display: flex;
@@ -112,20 +113,130 @@ h2{
 }
 .rode{
  height: 4px;
- width: 125px;
+ width: 130px;
  background: linear-gradient(to right, gold, gray, gray);
  position: absolute;
  margin-top: 130px;
+ margin-left: 0px;
 }
-                  
-
-
-
-
-
-
-
-
+ .section3 .rode{
+  margin-left: 40px;
+  width: 100px;
+  margin-top: 0px;
+ }                 
+.section3 h2{
+ padding-top: 30px;
+ margin-bottom: 140px;
+ padding-left: 40px;
+}
+.image{
+ height: 280px;
+ width: 350px;
+ background-image: url(./images/ehem\ 1.png);
+ background-position: center;
+ background-size: cover;
+}
+.image2{
+ height: 280px;
+ width: 350px;
+ background-image: url(./images/wewe\ 1.png);
+ background-position: center;
+ background-size: cover;
+}
+.image3{
+ height: 280px;
+ width: 350px;
+ background-image: url(./images/movers\ 1.png);
+ background-position: center;
+ background-size: cover;
+}
+.image4{
+ height: 280px;
+ width: 350px;
+ background-image: url(./images/chapchap\ 1.png);
+ background-position: center;
+ background-size: cover;
+}
+.image5{
+ height: 280px;
+ width: 350px;
+ background-image: url(./images/mashinani\ 1.png);
+ background-position: center;
+ background-size: cover;
+}
+.image6{
+ height: 280px;
+ width: 350px;
+ background-image: url(./images/songa\ 1.png);
+ background-position: center;
+ background-size: cover;
+}
+h3{
+ text-transform: capitalize;
+ font-size: xx-large;
+ font-weight: lighter;
+ padding: 25px 20px;
+}
+.icons{
+ font-weight: lighter;
+ width: 350px;
+ display: flex;
+ justify-content: space-between;
+ height: 65px;
+}
+.fa-car{
+ border: 1px solid rgb(212, 211, 211);
+ padding-top: 25px;
+ text-align: center;
+ width: 33.3%;
+ border-left: none;
+ border-bottom: none;
+}
+.fa-truck{
+ border-left: none;
+ border: 1px solid rgb(212, 211, 211);
+ padding-top: 25px;
+ text-align: center;
+ width: 33.3%;
+ border-bottom: none;
+}
+.fa-hashtag{
+ border: 1px solid rgb(212, 211, 211);
+ text-align: center;
+ width: 33.3%;
+ border-right: none;
+ border-bottom: none;
+ padding-top: 25px;
+}
+.image-wrap{
+ border-left: none;
+ width: 348px;
+ height: 150px;
+ margin-bottom: 20px;
+ background-color: white;
+ border-bottom-left-radius: 15px;
+ border-bottom-right-radius: 15px;
+ border-bottom-style: groove;
+}
+b{
+ padding: 10px;
+ font-weight: lighter;
+}
+.section3{
+ padding-top: 100px;
+ margin-left: 120px;
+}
+.container{
+ background-color: rgba(212, 211, 211, 0.2);
+}
+#wrap{
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+.cards{
+margin: 20px;
+}
 
 
 
