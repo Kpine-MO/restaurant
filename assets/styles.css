@@ -353,6 +353,87 @@ nav{
   position: absolute;
   margin-top: 40px;
 }
+.display{
+  display: flex;
+}
+.big-image{
+  margin-top: 60px;
+  margin-left: 200px;
+  height: 410px;
+  width: 560px;
+  background-image: url(./images/Property\ House.png);
+  background-position: center;
+  background-size: cover;
+  margin-right: 40px;
+}
+img{
+  margin-top: 10px;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.name{
+  font-size: small;
+  text-transform: capitalize;
+  color: black;
+  margin: 0;
+  margin-top: 10px;
+}
+.user{
+  font-size: x-small;
+  color: #faff00;
+  margin: 0;
+}
+#info{
+  display: flex;
+}
+.display input{
+  margin-top: 10px;
+  padding: 10px 5px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid lightgray;
+  margin-left: 10px;
+}
+.profile{
+  margin-top: 60px;
+  background-color: white;
+  width: 270px;
+  align-items: center;
+  height: 410px;
+  border-radius: 15px;
+  box-shadow: 2px 4px 5px rgb(199, 198, 198);
+}
+.profile .btn1{
+  margin-top: 0;
+ width: 250px;
+ margin-left: 10px;
+ height: 60px;
+}
+#type{
+  height: 100px;
+  margin-bottom: 25px;
+}
+.movers{
+  background-color: rgba(235, 231, 231, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
