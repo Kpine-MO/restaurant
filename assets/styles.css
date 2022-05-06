@@ -9,6 +9,7 @@
  float: right;
  margin-top: 50px;
 }
+/*Remember to change navagation hover effect*/
 ul{
  display: flex;
  list-style: none;
@@ -70,7 +71,7 @@ p{
  background-image: url(./images/moving\ 1.png);
  background-position: center;
  background-size: cover;
- height: 100vh;
+ height: 110vh;
  overflow: hidden;
 }
 h2{
