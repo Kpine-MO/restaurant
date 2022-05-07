@@ -519,15 +519,32 @@ h6{
   font-size: small;
 }
 .details p{
-  font-size: small;
+  font-size: 16px;
   margin: 0;
   padding: 20px 10px;
-  color: black;
+  color: rgb(95, 93, 93);
 }
-
-
-
-
+.features{
+display: flex;
+flex-wrap: wrap;
+column-gap: 30px;
+text-transform: capitalize;
+column-width: 100px;
+}
+.fa-check-circle{
+  display: flex;
+  color: #ffac12;
+  font-size: small;
+  text-transform: capitalize;
+}
+.fa-check-circle b{
+ font-weight: bold;
+}
+.merge{
+  display: flex;
+  width: 150px;
+  margin-left: 15px;
+}
 
 
 
