@@ -518,7 +518,12 @@ h6{
   font-weight: lighter;
   font-size: small;
 }
-
+.details p{
+  font-size: small;
+  margin: 0;
+  padding: 20px 10px;
+  color: black;
+}
 
 
 
