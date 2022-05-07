@@ -25,34 +25,50 @@ margin-left: 50px;
 text-transform: capitalize;
 width: 90px;
 border: ipx solid transparent;
-height: 20px;
+height: 30px;
 text-align: center;
-border-radius: 6px;
-padding: 2px 0;
+padding: 5px 0;
 }
 .left{
  clear: both;
 }
  .btn{
- margin-right: 190px;
+
  padding: 2px 0;
  height: 27px;
  width: 60px;
  margin-top: 0px;
- color: #faff00;
+ color: black;
  background-color: black;
  border: none;
  text-transform: capitalize;
  font-weight: bold;
  opacity: 0.58;
  cursor: pointer;
+ margin-right: 50px;
+ background-color: #faff00;
 }
-li:hover{
-background-color: #faff00;
-color: black;
+.btns{
+  margin-right: 300px;
+  padding: 2px 0;
+  height: 27px;
+  width: 60px;
+  margin-top: 0px;
+  color: #faff00;
+  background-color: black;
+  border: none;
+  text-transform: capitalize;
+  font-weight: bold;
+  opacity: 0.58;
+  cursor: pointer;
+ }
+.btn:hover{
+  color: black;
+  background-color: #ffac12;
 }
+
 a:hover{
- color: black;
+ color: #ffac12;
 }
 h1{
  font-size: 60px;
