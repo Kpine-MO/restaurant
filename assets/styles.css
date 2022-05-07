@@ -593,7 +593,19 @@ column-width: 100px;
   background-position: center;
   background-size: cover;
  }
-
+.footer{
+  display: flex;
+}
+.footer .btn1{
+  background-color: #ffac12;
+ color: black;
+ margin-top: 40px;
+ margin-left: 370px;
+}
+.footer .fa-long-arrow-right{
+  margin: 0;
+  padding: 0;
+}
 
 
 
