@@ -366,7 +366,7 @@ nav{
   background-size: cover;
   margin-right: 40px;
 }
-img{
+#profile-pic{
   margin-top: 10px;
   border-radius: 50%;
   height: 30px;
@@ -420,6 +420,67 @@ img{
   background-color: rgba(235, 231, 231, 0.5);
 }
 
+.showcase1{
+  background-image: url(./images/Rectangle.png);
+  background-position: center;
+  background-size: cover;
+  margin-right: 13px;
+  height: 70px;
+  width: 70px;
+}
+.showcase2{
+  background-image: url(./images/Rectangle-1.png);
+  background-position: center;
+  background-size: cover;
+  height: 70px;
+  width: 70px;
+  margin-right: 13px;
+}
+.showcase3{
+  background-image: url(./images/Rectangle-2.png);
+  background-position: center;
+  background-size: cover;
+  height: 70px;
+  width: 70px;
+  margin-right: 13px;
+}
+.showcase4{
+  background-image: url(./images/Rectangle-3.png);
+  background-position: center;
+  background-size: cover;
+  height: 70px;
+  width: 70px;
+  margin-right: 13px;
+}
+.showcase5{
+  background-image: url(./images/Rectangle-4.png);
+  background-position: center;
+  background-size: cover;
+  height: 70px;
+  width: 70px;
+  margin-right: 13px;
+}
+.showcase6{
+  background-image: url(./images/Rectangle-5.png);
+  background-position: center;
+  background-size: cover;
+  height: 70px;
+  width: 70px;
+  margin-right: 13px;
+}
+.showcase7{
+  background-image: url(./images/Rectangle-6.png);
+  background-position: center;
+  background-size: cover;
+  height: 70px;
+  width: 70px;
+  margin-right: 13px;
+}
+#showcase{
+  display: flex;
+  margin-top: 20px;
+  margin-left: 200px;
+}
 
 
 
