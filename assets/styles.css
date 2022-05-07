@@ -133,43 +133,43 @@ h2{
  padding-left: 40px;
 }
 .image{
- height: 280px;
- width: 350px;
+ height: 235px;
+ width: 300px;
  background-image: url(./images/ehem\ 1.png);
  background-position: center;
  background-size: cover;
 }
 .image2{
- height: 280px;
- width: 350px;
+ height: 235px;
+ width: 300px;
  background-image: url(./images/wewe\ 1.png);
  background-position: center;
  background-size: cover;
 }
 .image3{
- height: 280px;
- width: 350px;
+ height: 235px;
+ width: 300px;
  background-image: url(./images/movers\ 1.png);
  background-position: center;
  background-size: cover;
 }
 .image4{
- height: 280px;
- width: 350px;
+ height: 235px;
+ width: 300px;
  background-image: url(./images/chapchap\ 1.png);
  background-position: center;
  background-size: cover;
 }
 .image5{
- height: 280px;
- width: 350px;
+ height: 235px;
+ width: 300px;
  background-image: url(./images/mashinani\ 1.png);
  background-position: center;
  background-size: cover;
 }
 .image6{
- height: 280px;
- width: 350px;
+ height: 235px;
+ width: 300px;
  background-image: url(./images/songa\ 1.png);
  background-position: center;
  background-size: cover;
@@ -178,14 +178,14 @@ h3{
  text-transform: capitalize;
  font-size: x-large;
  font-weight: lighter;
- padding: 25px 20px;
+ padding: 20px;
 }
 .icons{
  font-weight: lighter;
- width: 350px;
+ width: 300px;
  display: flex;
  justify-content: space-between;
- height: 65px;
+ height: 52px;
 }
 .fa-car{
  border: 1px solid rgb(212, 211, 211);
@@ -194,6 +194,7 @@ h3{
  width: 33.3%;
  border-left: none;
  border-bottom: none;
+ 
 }
 .fa-truck{
  border-left: none;
@@ -213,8 +214,8 @@ h3{
 }
 .image-wrap{
  border-left: none;
- width: 348px;
- height: 150px;
+ width: 300px;
+ height: 120px;
  margin-bottom: 20px;
  background-color: white;
  border-bottom-left-radius: 15px;
@@ -227,7 +228,7 @@ b{
 }
 .section3{
  padding-top: 100px;
- margin-left: 120px;
+ margin-left: 190px;
 }
 .container{
  background-color: rgba(212, 211, 211, 0.4);
@@ -545,11 +546,53 @@ column-width: 100px;
   width: 150px;
   margin-left: 15px;
 }
-
-
-
-
-
+#wrap-page2{
+  display: flex;
+  margin-left: 180px;
+  overflow: hidden;
+}
+.page2 .rode{
+  margin-left: 200px;
+  width: 80px;
+  margin-top: 0;
+}
+.page2 h2{
+  margin-left: 200px;
+  margin-bottom: 100px;
+  margin-bottom: 40px;
+  padding-top: 30px;
+}
+.page2{
+  margin-top: 50px;
+}
+.page2-image{
+  height: 235px;
+  width: 300px;
+  background-image: url(./images/Rectangle-7.png);
+  background-position: center;
+  background-size: cover;
+ }
+ .page2-image2{
+  height: 235px;
+  width: 300px;
+  background-image: url(./images/Rectangle-8.png);
+  background-position: center;
+  background-size: cover;
+ }
+ .page2-image3{
+  height: 235px;
+  width: 300px;
+  background-image: url(./images/Rectangle-9.png);
+  background-position: center;
+  background-size: cover;
+ }
+ .page2-image4{
+  height: 235px;
+  width: 300px;
+  background-image: url(./images/Rectangle-10.png);
+  background-position: center;
+  background-size: cover;
+ }
 
 
 
