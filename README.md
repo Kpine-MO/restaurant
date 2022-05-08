@@ -70,3 +70,7 @@ Email-[Chrispine Ochieng]
 (chrispine.oduor@student.moringaschool.com)
 
 [Go Back to the top](#moto-moto-tings)
+
+## Live Link
+
+- Click this link to view the live application https://kpine-mo.github.io/restaurant/
