@@ -5,15 +5,16 @@
  box-sizing: border-box;
 }
 .nav-bar{
- display: flex;
- float: right;
  margin-top: 50px;
+ width: 100%;
 }
+
+
 /*Remember to change navagation hover effect*/
-ul{
+ ul{
  display: flex;
  list-style: none;
- margin-right: 40px;
+ padding-left: 300px
 }
 a{
  text-decoration: none;
@@ -24,16 +25,13 @@ li{
 margin-left: 50px;
 text-transform: capitalize;
 width: 90px;
-border: ipx solid transparent;
 height: 30px;
-text-align: center;
-padding: 5px 0;
+padding: px 0;
 }
 .left{
  clear: both;
 }
  .btn{
-
  padding: 2px 0;
  height: 27px;
  width: 60px;
@@ -149,46 +147,56 @@ h2{
  padding-left: 40px;
 }
 .image{
- height: 235px;
- width: 300px;
+ height: 180px;
+ width: 230px;
  background-image: url(./images/ehem\ 1.png);
  background-position: center;
  background-size: cover;
 }
 .image2{
- height: 235px;
- width: 300px;
+ height: 180px;
+ width: 230px;
  background-image: url(./images/wewe\ 1.png);
  background-position: center;
  background-size: cover;
 }
 .image3{
- height: 235px;
- width: 300px;
+ height: 180px;
+ width: 230px;
  background-image: url(./images/movers\ 1.png);
  background-position: center;
  background-size: cover;
 }
 .image4{
- height: 235px;
- width: 300px;
+ height: 180px;
+ width: 230px;
  background-image: url(./images/chapchap\ 1.png);
  background-position: center;
  background-size: cover;
 }
 .image5{
- height: 235px;
- width: 300px;
+ height: 180px;
+ width: 230px;
  background-image: url(./images/mashinani\ 1.png);
  background-position: center;
  background-size: cover;
 }
 .image6{
- height: 235px;
- width: 300px;
+ height: 180px;
+ width: 230px;
  background-image: url(./images/songa\ 1.png);
  background-position: center;
  background-size: cover;
+}
+.section3 .cards{
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.section3 h3{
+  font-size: large;
+}
+.section3 .icons{
+  height: 59px;
 }
 h3{
  text-transform: capitalize;
@@ -198,14 +206,14 @@ h3{
 }
 .icons{
  font-weight: lighter;
- width: 300px;
+ width: 240px;
  display: flex;
  justify-content: space-between;
  height: 52px;
 }
 .fa-car{
  border: 1px solid rgb(212, 211, 211);
- padding-top: 25px;
+ padding-top: 20px;
  text-align: center;
  width: 33.3%;
  border-left: none;
@@ -215,7 +223,7 @@ h3{
 .fa-truck{
  border-left: none;
  border: 1px solid rgb(212, 211, 211);
- padding-top: 25px;
+ padding-top: 20px;
  text-align: center;
  width: 33.3%;
  border-bottom: none;
@@ -226,11 +234,11 @@ h3{
  width: 33.3%;
  border-right: none;
  border-bottom: none;
- padding-top: 25px;
+ padding-top: 20px;
 }
 .image-wrap{
  border-left: none;
- width: 300px;
+ width: 230px;
  height: 120px;
  margin-bottom: 20px;
  background-color: white;
@@ -255,7 +263,7 @@ b{
  
 }
 .cards{
-margin: 20px;
+margin: 10px;
 }
 .footer_con{
  display: flex;
@@ -306,24 +314,24 @@ strong{
 nav{
  background: linear-gradient( to top right, black,rgb(29, 16, 1),rgb(54, 29, 1));
  height: 200px;
+ width: 100%;
 }
-.nav-left{
+.nav-left {
  display: flex;
  float: right;
  margin-top: 20px;
  margin-right: 200px;
+ 
 }
 .nav-left .btn1{
  background-color: #ffac12;
  color: black;
- margin-top: 6px;
+ margin-top: 0px;
 }
 .nav-left .fa-long-arrow-right{
  color: white;
 }
-.nav-left ul{
- padding-top: 20px;
-}
+
 .border{
   position: absolute;
  width: 100%;
@@ -409,7 +417,7 @@ nav{
 .display input{
   margin-top: 10px;
   padding: 10px 5px;
-  width: 250px;
+  width: 19.5vw;
   border-radius: 6px;
   border: 1px solid lightgray;
   margin-left: 10px;
@@ -417,7 +425,7 @@ nav{
 .profile{
   margin-top: 60px;
   background-color: white;
-  width: 270px;
+  width: 21vw;
   align-items: center;
   height: 410px;
   border-radius: 15px;
@@ -425,7 +433,7 @@ nav{
 }
 .profile .btn1{
   margin-top: 0;
- width: 250px;
+ width: 19.5vw;
  margin-left: 10px;
  height: 60px;
 }
@@ -499,7 +507,7 @@ nav{
   margin-left: 200px;
 }
 .details{
-  width: 560px;
+  width: 50vw;
   margin-left: 200px;
   margin-top: 40px;
   border-radius: 10px;
@@ -515,11 +523,13 @@ h6{
   border-top: none;
 }
 .details .fa{
-  width: 19.41%;
+  width: 9vw;
   text-align: center;
   padding: 15px 0;
 }
-
+.features .fa{
+  width: 19.1%;
+}
 .fa-bus{
   border-right: 1px solid rgb(184, 181, 181);
 }
@@ -582,35 +592,36 @@ column-width: 100px;
   margin-top: 50px;
 }
 .page2-image{
-  height: 235px;
-  width: 300px;
+  height: 180px;
+  width: 230px;
   background-image: url(./images/Rectangle-7.png);
   background-position: center;
   background-size: cover;
  }
  .page2-image2{
-  height: 235px;
-  width: 300px;
+  height: 180px;
+  width: 230px;
   background-image: url(./images/Rectangle-8.png);
   background-position: center;
   background-size: cover;
  }
  .page2-image3{
-  height: 235px;
-  width: 300px;
+  height: 180px;
+  width: 230px;
   background-image: url(./images/Rectangle-9.png);
   background-position: center;
   background-size: cover;
  }
  .page2-image4{
-  height: 235px;
-  width: 300px;
+  height: 180px;
+  width: 230px;
   background-image: url(./images/Rectangle-10.png);
   background-position: center;
   background-size: cover;
  }
 .footer{
   display: flex;
+
 }
 .footer .btn1{
   background-color: #ffac12;
@@ -622,9 +633,84 @@ column-width: 100px;
   margin: 0;
   padding: 0;
 }
+nav{
+  width: 100vw;
+}
+.repeat ul{
+  margin-left: 350px;
+}
+.repeat .btn1{
+  margin-left: 30px;
+}
+#wrap-page2{
+  width: 70vw;
+  overflow: auto;
+}
+@media only screen and (max-width: 1068px) {
+  .nav-bar ul {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+  }
+  .left h1 {
+    margin-left: 50px;
+  }
+  .left p{
+    margin-left: 50px;
+  }
+}
+@media only screen and (max-width: 854px){
+  #right{
+    margin-top: 30px;
+  }
+  .section2 .rode{
+    margin-top:20px;
+  }
+}
+@media only screen and (max-width: 872px) {
+  .section3{
+    margin: 0;
+  }
+}
+@media only screen and (max-width: 681px) {
+  .section3{
+   padding: 0;
+  }
+  .section3 h2{ 
+    margin-bottom: 0;
+    margin-left: 10px;
+   }
+   .section3 .rode{
+     margin-top: 10px;
+     margin-left: 50px;
+   }
+   .cards{
+     margin-left: 100px;
+   }
+}
+@media only screen and (max-width: 490px) {
+ 
+  .left h1 {
+    padding-top: 5px;
+  }
+  .left p{
+   margin-top: 15px;
+  }
+}
+@media only screen and (max-width: 509px){
+  #right .btn1{
+    margin-top: 0px;
 
-
-
-
-
-
+}
+@media only screen and (max-width: 939px) {
+  td{
+    padding: 0px;
+  }
+}
+@media only screen and (max-width: 900px) {
+ .display{
+   padding: auto;
+   margin: auto;
+ }
+}
+}
