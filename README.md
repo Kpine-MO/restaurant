@@ -20,7 +20,7 @@
 
 [Go Back to the top](#moto-moto-tings)
 
-## Featurea
+## Features
 
 As a user of the application,you will be able to :
 

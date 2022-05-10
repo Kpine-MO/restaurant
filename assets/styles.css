@@ -430,6 +430,17 @@ nav{
   height: 410px;
   border-radius: 15px;
   box-shadow: 2px 4px 5px rgb(199, 198, 198);
+  display: none;
+  position: relative;
+}
+.circle:hover + .profile{
+  display: block;
+}
+.circle{
+  margin-top: 60px;
+  position: absolute;
+  margin-left: 800px;
+  width: 250px;
 }
 .profile .btn1{
   margin-top: 0;
